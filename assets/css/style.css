@@ -9,9 +9,8 @@ footer {
 
 }
 
-.jumbotron{
-	text-align: center;
-	font-family: 'Satisfy', cursive;
+.nav-wrapper{
+	margin-bottom: 20px;
 }
 
 .social {
@@ -24,4 +23,15 @@ footer {
 }
 .fa-copyright{
 	line-height: 16px;
+}
+.cite{
+	width: 400px;
+	text-align: center;
+}
+#image-text{
+	text-align: center;
+}
+
+a {
+	color: #FF02CA;
 }
