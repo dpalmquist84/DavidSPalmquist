@@ -19,8 +19,11 @@ $(function() {
         interval = setInterval(function() {
             $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
                 if (++currentSlide === $slides.length) {
+                    setTimeout(function(){
                     currentSlide = 1;
+
                     $slideContainer.css('margin-left', 0);
+                },1000);
                 }
             });
         }, pause);
