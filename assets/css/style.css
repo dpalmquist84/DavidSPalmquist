@@ -32,6 +32,29 @@ footer {
 	text-align: center;
 }
 
-a {
+/*a {
 	color: #FF02CA;
 }
+*/
+a:link {
+    color: #FF02CA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+ a:visited {
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
+    }
