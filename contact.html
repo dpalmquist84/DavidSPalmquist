@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About Me</title>
+  <title>About Me</title>
   <meta charset="UTF-8">
-
-  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-
     <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
   <!-- Latest compiled and minified CSS --> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css">
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/contact.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -28,43 +28,47 @@
   integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
   crossorigin="anonymous">
 
+
 </head>
 
 <body>
 
-  <nav>
+<nav>
     <div class="nav-wrapper blue darken-2">
-      <a href="index.html" class="brand-logo active">David S. Palmquist</a>
+      <a href="aboutMe.html" class="brand-logo active">David S. Palmquist</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li class="active"><a href="portfolio.html">My Portfolio</a></li>
-        <li class="active"><a href="aboutMe.html">About Me</a></li>
+        <li class="active"><a href="aboutMe.html">Components</a></li>
         <li class="active"><a href="contact.html">Contact Me</a></li>
       </ul>
     </div>
   </nav>
 
-
-<div class="row">
-  <div class="col l6 offset-l4">
- <h1 class="aboutMe animated slideInUp">David S. Palmquist</h1>
-   <h2 class="aboutMe">A budding programmer</h2>
-    <h4 class="aboutMe blue-text">Click to learn more!</h4>
-  </div>
-</div>
-
-<div class="row">
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <h3 class="center">Connect with me!</h3>
+    <h4 class="center">I'm eager to hear from you</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+ 
   
-  <div class="col l12 s12">
-    <div class="images">
-      <img src="./assets/images/html5.png"  width=200px alt="html">
-      <img src="./assets/images/c33s.jpg"  width=200px alt="css">
-      <img src="./assets/images/jquery.png" width=200px alt="jquery">
-      <img src="./assets/images/es6.png" width=200px alt="es6">
-      <img src="./assets/images/node.png" width=200px alt="png">
-      <img src="./assets/images/firebase.png" width=200px alt="firebase">
-      <img src="./assets/images/mySql.jpg" width=200px alt="mysql">
-    </div>
-  </div>
 </div>
 
         <footer class="page-footer blue darken-2">
@@ -77,10 +81,10 @@
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Reach out to me on </h5>
                 <ul>
-                  <a class="grey-text text-lighten-3" href="https://www.facebook.com/david.palmquist.3"><img src="./assets/images/Facebook.svg" width=50px alt="facebook"></a>
-                  <a href="https://stackoverflow.com/users/7988158/dpalmquist" ><img src="./assets/images/stackoverflow.svg" width=50px alt="stackoverflow"></a>
-                  <a href="https://github.com/dpalmquist84"><img src="./assets/images/github.svg" width=50px alt="github"></a>
-                   <a href="https://www.linkedin.com/in/dpalmquist/"><img src="./assets/images/LinkedIn.svg" width=50px alt="linkedin"></a>
+                  <a class="grey-text text-lighten-3" href="https://www.facebook.com/david.palmquist.3"><img src="./assets/images/Facebook.svg" width=50px alt="facebook" class="social"></a>
+                  <a href="https://stackoverflow.com/users/7988158/dpalmquist" ><img src="./assets/images/stackoverflow.svg" width=50px alt="stackoverflow" class="social"></a>
+                  <a href="https://github.com/dpalmquist84"><img src="./assets/images/github.svg" width=50px alt="github" class="social"></a>
+                   <a href="https://www.linkedin.com/in/dpalmquist/"><img src="./assets/images/LinkedIn.svg" width=50px alt="linkedin" class="social"></a>
                 </ul>
               </div>
             </div>
@@ -93,9 +97,8 @@
           </div>
         </footer>
 
-<script src="./assets/javascript/script.js"></script>
+<script src="./assets/javascript/portfolio.js">
 </script>
-
 
 </body>
 </html>

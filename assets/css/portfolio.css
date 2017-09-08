@@ -44,3 +44,29 @@ img{
 p {
     text-align: left;
 }
+
+a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+ a:visited {
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
+    }
+h4 {
+    color: #333;
+}

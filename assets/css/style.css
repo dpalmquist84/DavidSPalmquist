@@ -14,8 +14,8 @@ footer {
 }
 
 .social {
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   margin-top: 8px;
   margin-right: 5px;
   vertical-align: baseline;
@@ -37,7 +37,7 @@ footer {
 }
 */
 a:link {
-    color: #FF02CA;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -58,3 +58,7 @@ a:active {
     font-size: 110%;
     text-decoration: none;
     }
+
+a.brand-logo.active {
+    font-size: 2.1rem !important;
+}

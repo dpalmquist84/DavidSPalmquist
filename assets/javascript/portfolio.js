@@ -2,6 +2,15 @@
 
 $(function() {
 
+    $('.carousel.carousel-slider').carousel();
+    // Next slide
+$('.carousel').carousel('next', 6);
+
+
+    
+
+
+
     //settings for slider
     var width = 720;
     var animationSpeed = 1000;
