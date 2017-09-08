@@ -5,8 +5,10 @@ body{
 }
 
 footer {
-	text-align: center;
-
+    text-align: center;
+    font-weight: 20px;
+    font-size: 16px;
+    color: #fff;
 }
 
 .nav-wrapper{
@@ -62,3 +64,10 @@ a:active {
 a.brand-logo.active {
     font-size: 2.1rem !important;
 }
+
+#learnMore {
+  text-align: center;
+  cursor: pointer
+}
+
+
