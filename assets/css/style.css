@@ -39,24 +39,24 @@ footer {
 }
 */
 a:link {
-    color: #FFF;
+    color: grey;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: grey;
     font-size: 110%;
     text-decoration: none;
 }
 
  a:visited {
-    color: white;
+    color: black;
     font-size: 110%;
     text-decoration: none;
 }
 
 a:active {
-    color: white;
+    color: grey;
     font-size: 110%;
     text-decoration: none;
     }
@@ -68,6 +68,12 @@ a.brand-logo.active {
 #learnMore {
   text-align: center;
   cursor: pointer
+}
+
+#time {
+    float: left;
+    margin-left: 20%;
+    font-size: 2rem;
 }
 
 
