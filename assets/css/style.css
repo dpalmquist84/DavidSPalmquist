@@ -39,12 +39,12 @@ footer {
 }
 */
 a:link {
-    color: grey;
+    color: #fff;
     text-decoration: none;
 }
 
 a:hover {
-    color: grey;
+    color: #FFF;
     font-size: 110%;
     text-decoration: none;
 }
@@ -56,7 +56,7 @@ a:hover {
 }
 
 a:active {
-    color: grey;
+    color: #fff;
     font-size: 110%;
     text-decoration: none;
     }
