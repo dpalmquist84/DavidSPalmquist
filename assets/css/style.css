@@ -67,7 +67,8 @@ a.brand-logo.active {
 
 #learnMore {
   text-align: center;
-  cursor: pointer
+  cursor: pointer;
+  text-align: left;
 }
 
 #time {
